@@ -44,63 +44,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-- **[AWS Storage Gateway](https://aws.amazon.com/storagegateway/)**  
-
-  **AWS's hybrid cloud storage service** — provides on-premises access to virtually unlimited cloud storage . **Three gateway types**: S3 File Gateway (NFS/SMB with local caching), Volume Gateway (iSCSI block storage with snapshots), and Tape Gateway (virtual tape library) . **S3 File Gateway uses LRU eviction for cache management** — cache is shared across all file shares, and can be increased but not reduced  . **Best for AWS-native hybrid storage** .
-
-
-
-- **[Azure Stack Edge](https://azure.microsoft.com/en-us/products/azure-stack/edge/)**  
-
-  **Microsoft's managed edge computing and storage gateway** — AI-enabled edge device with cloud storage gateway capabilities . **Integrated with Azure services** for data transfer and processing at the edge . **Best for Azure-native hybrid storage** .
-
-
-
-- **[NetApp Cloud Volumes ONTAP](https://www.netapp.com/cloud/)**  
-
-  **Enterprise-class cloud storage** — combines data control with NAS (NFS, SMB/CIFS) and block (iSCSI) protocols . **Pricing starts at $0.64/hour for Explore, $1.68/hour for Standard, and $2.71/hour for Premium**  . **Best for enterprise workloads requiring NetApp ONTAP features** .
-
-
-
-- **[Panzura CloudFS](https://panzura.com/)**  
-
-  **Cloud-native global file system** — immutable snapshots every 60 seconds with 1-minute RPO . **Global deduplication typically achieves 70% data reduction** — a 100TB dataset across 10 sites consumes ~30TB in cloud storage versus 1PB with replication  . **Best for global file collaboration and ransomware protection** .
-
-
-
-- **[Nasuni File Data Platform](https://www.nasuni.com/)**  
-
-  **Cloud-native file data services** — replaces traditional NAS, backup, and DR with cloud-scale solution . **Reduced storage footprint at sites by 70-80%** according to customer reports . **Pricing around $850 per terabyte per year** with license fees  . **Best for multi-site file data consolidation** .
-
-
-
-- **[CTERA Enterprise File Services](https://www.ctera.com/)**  
-
-  **Global file system with cloud storage gateway** — WAN optimization and global deduplication . **Best for distributed enterprise file services** .
-
-
-
-- **[Cohesity SmartFiles](https://www.cohesity.com/)**  
-
-  **File and object storage platform** — combines scale-out NAS with cloud integration . **Best for data management and backup consolidation** .
-
-
-
-- **[Qumulo Core](https://qumulo.com/)**  
-
-  **Scale-out file storage with cloud integration** — NFS, SMB, and S3 protocols with real-time analytics . **Best for media and life sciences workloads** .
-
-
-
-- **[Pure Storage Cloud Block Store](https://www.purestorage.com/)**  
-
-  **Cloud block storage** — available on AWS and Azure, providing workload portability for Pure Storage customers  . **Best for Pure Storage ecosystem users** .
-
-
-
-- **[Lucidity](https://www.lucidity.cloud/)**  
-
-  **Cloud storage optimization** — automatic volume expansion and tiering for cloud workloads . **Best for cloud storage cost optimization** .
+| Platform | Description & Best For | Pricing | Free Tier / Trial Limit |
+| :--- | :--- | :--- | :--- |
+| **[AWS Storage Gateway](https://aws.amazon.com/storagegateway/)** | **AWS hybrid cloud storage service** providing S3 File (NFS/SMB), Volume (iSCSI), and Tape gateways with local LRU caching. Best for AWS-native hybrid storage. | **$0.01 / GB written** (capped at $125/gateway/mo) + standard S3 storage fees ($0.023/GB/mo) | **100 GB written** to AWS per account free forever (Always Free) |
+| **[Azure Stack Edge](https://azure.microsoft.com/en-us/products/azure-stack/edge/)** | **Managed edge computing & storage gateway** device with AI acceleration and Azure Blob/File integration. Best for Azure-native hybrid edge storage. | Starts at **~$399 / month** hardware subscription fee + standard Azure Blob storage charges | **No hardware trial** (Azure cloud account provides 30-day / $200 credit for cloud services only) |
+| **[NetApp Cloud Volumes ONTAP](https://www.netapp.com/cloud/)** | **Enterprise NAS & block storage** combining ONTAP data management (NFS, SMB, iSCSI) with cloud elasticity. Best for enterprise workloads needing NetApp features. | Starts at **$0.64 / hour** (Explore tier, up to 2TB) or ~$0.10 / GB-month payload capacity | **Freemium plan free forever** up to 500 GiB provisioned capacity (or 30-day trial with unmetered capacity) |
+| **[Panzura CloudFS](https://panzura.com/)** | **Global cloud file system** with 60s snapshot RPO, global deduplication, and ransomware protection. Best for multi-site file collaboration. | Starts at **~$276.12 / TB / year** (CloudFS Archive) or **$840 / TB / year** (NAS tier) on AWS Marketplace | **No free tier** (Custom interactive demo & TCO assessment provided upon request) |
+| **[Nasuni File Data Platform](https://www.nasuni.com/)** | **Cloud-native file service platform** replacing legacy NAS and backup with cloud-scale global file locking. Best for multi-site file consolidation. | Starts at **~$850 – $1,050 / TB / year** subscription license fee | **14-day free trial** with up to **5 TB** licensed data limit |
+| **[CTERA Enterprise File Services](https://www.ctera.com/)** | **Global file system & gateway** with WAN optimization, endpoint backup, and edge filers. Best for distributed enterprise file services. | Starts at **~$1,200 / node / year** (or custom AWS/Azure private marketplace offer) | **30-day free trial** with full platform evaluation license |
+| **[Cohesity SmartFiles](https://www.cohesity.com/)** | **Software-defined scale-out file & object platform** for enterprise data consolidation. Best for file data management and backup consolidation. | Starts at **~$150 – $400+ / TB / year** backend capacity (or ~$731 / TB / year list unit) | **30-day free trial** for cloud platform services (no perpetual free tier) |
+| **[Qumulo Core](https://qumulo.com/)** | **Scale-out file storage system** with real-time data analytics, NFS, SMB, and S3 access. Best for media, HPC, and life sciences workloads. | **$0.009 to $0.026 / GB-month** (~$9.22 to $26.62 / TB-month) for cloud software + AWS/GCP infra | **30-day cloud trial** (with 1TB / 12TB trial editions on AWS Marketplace) |
+| **[Pure Storage Cloud Block Store](https://www.purestorage.com/)** | **Cloud block storage platform** enabling workload portability across AWS and Azure with thin provisioning. Best for Pure Storage ecosystem users. | Starts at **~$80 – $90 / TB / month** based on Effective Used Capacity (EuC) + cloud infra | **30-day free trial** available via AWS / Azure Marketplace listings |
+| **[Lucidity](https://www.lucidity.cloud/)** | **Autonomous cloud storage auto-scaler** providing automatic block storage expansion/shrinking for EBS disks. Best for cloud storage cost optimization. | Percentage of storage savings (~15-30% of reclaimed EBS costs) / customized software subscription | **Free storage audit tool** & no-commitment storage assessment + 14-day demo trial |
 
 
 
