@@ -55,54 +55,54 @@ Below is the comparative list of commercial SaaS products, sorted descending by 
 
 ## ⚡️ Open-Source GitHub Projects
 
-Below is the expanded list of open-source storage gateway repositories, distributed file systems, and S3 translators, sorted descending by **GitHub Star Count**:
+Below is the expanded list of open-source storage gateway repositories, distributed file systems, and S3 translators, sorted descending by **GitHub Stars_Count**:
 
-1. **[MinIO](https://github.com/minio/minio)** [![GitHub stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) — **61,335 ⭐**  
+1. **[MinIO](https://github.com/minio/minio)** [![GitHub_Stars](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) — **61,335 ⭐**  
    High-performance, S3-compatible enterprise object storage built for cloud-native hybrid infrastructure. **Best for S3-compatible object storage**.
 
-2. **[Rclone](https://github.com/rclone/rclone)** [![GitHub stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) — **60,168 ⭐**  
+2. **[Rclone](https://github.com/rclone/rclone)** [![GitHub_Stars](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) — **60,168 ⭐**  
    "rsync for cloud storage" — command-line utility to sync, encrypt, and mount files across 70+ cloud storage providers with VFS caching. **Best for universal cloud data sync & mounts**.
 
-3. **[restic](https://github.com/restic/restic)** [![GitHub stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) — **36,459 ⭐**  
+3. **[restic](https://github.com/restic/restic)** [![GitHub_Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers) — **36,459 ⭐**  
    Fast, secure, encrypted backup program supporting local drives and cloud object storage gateways (S3, Azure Blob, SFTP). **Best for secure, deduplicated cloud backups**.
 
-4. **[SeaweedFS](https://github.com/seaweedfs/seaweedfs)** [![GitHub stars](https://img.shields.io/github/stars/seaweedfs/seaweedfs?style=social&color=white)](https://github.com/seaweedfs/seaweedfs/stargazers) — **35,293 ⭐**  
+4. **[SeaweedFS](https://github.com/seaweedfs/seaweedfs)** [![GitHub_Stars](https://img.shields.io/github/stars/seaweedfs/seaweedfs?style=social&color=white)](https://github.com/seaweedfs/seaweedfs/stargazers) — **35,293 ⭐**  
    Fast distributed storage system for billions of files with S3 API, POSIX layer, and tiering to cloud storage. **Best for large-scale file & object storage**.
 
-5. **[Ceph](https://github.com/ceph/ceph)** [![GitHub stars](https://img.shields.io/github/stars/ceph/ceph?style=social&color=white)](https://github.com/ceph/ceph/stargazers) — **17,097 ⭐**  
+5. **[Ceph](https://github.com/ceph/ceph)** [![GitHub_Stars](https://img.shields.io/github/stars/ceph/ceph?style=social&color=white)](https://github.com/ceph/ceph/stargazers) — **17,097 ⭐**  
    Unified distributed object store, block device, and file system delivering enterprise storage infrastructure for private & hybrid clouds. **Best for unified infrastructure storage**.
 
-6. **[JuiceFS](https://github.com/juicedata/juicefs)** [![GitHub stars](https://img.shields.io/github/stars/juicedata/juicefs?style=social&color=white)](https://github.com/juicedata/juicefs/stargazers) — **14,505 ⭐**  
+6. **[JuiceFS](https://github.com/juicedata/juicefs)** [![GitHub_Stars](https://img.shields.io/github/stars/juicedata/juicefs?style=social&color=white)](https://github.com/juicedata/juicefs/stargazers) — **14,505 ⭐**  
    POSIX file system built on top of Redis/SQL and cloud object storage (S3/Azure Blob/GCS) with high-performance local caching. **Best for POSIX cloud file systems & AI/ML training data**.
 
-7. **[OpenZFS](https://github.com/openzfs/zfs)** [![GitHub stars](https://img.shields.io/github/stars/openzfs/zfs?style=social&color=white)](https://github.com/openzfs/zfs/stargazers) — **12,475 ⭐**  
+7. **[OpenZFS](https://github.com/openzfs/zfs)** [![GitHub_Stars](https://img.shields.io/github/stars/openzfs/zfs?style=social&color=white)](https://github.com/openzfs/zfs/stargazers) — **12,475 ⭐**  
    Enterprise file system and volume manager with pooled storage, data integrity verification, copy-on-write snapshots, and cloud tiering capabilities. **Best for file system integrity & storage pooling**.
 
-8. **[OpenEBS](https://github.com/openebs/openebs)** [![GitHub stars](https://img.shields.io/github/stars/openebs/openebs?style=social&color=white)](https://github.com/openebs/openebs/stargazers) — **9,825 ⭐**  
+8. **[OpenEBS](https://github.com/openebs/openebs)** [![GitHub_Stars](https://img.shields.io/github/stars/openebs/openebs?style=social&color=white)](https://github.com/openebs/openebs/stargazers) — **9,825 ⭐**  
    Leading Container Attached Storage (CAS) solution for Kubernetes, providing persistent block storage across cloud & edge nodes. **Best for Kubernetes cloud-native storage**.
 
-9. **[Longhorn](https://github.com/longhorn/longhorn)** [![GitHub stars](https://img.shields.io/github/stars/longhorn/longhorn?style=social&color=white)](https://github.com/longhorn/longhorn/stargazers) — **8,018 ⭐**  
+9. **[Longhorn](https://github.com/longhorn/longhorn)** [![GitHub_Stars](https://img.shields.io/github/stars/longhorn/longhorn?style=social&color=white)](https://github.com/longhorn/longhorn/stargazers) — **8,018 ⭐**  
    Cloud-native distributed block storage built for Kubernetes with incremental snapshots and multi-cloud disaster recovery. **Best for Kubernetes persistent volume backups**.
 
-10. **[GlusterFS](https://github.com/gluster/glusterfs)** [![GitHub stars](https://img.shields.io/github/stars/gluster/glusterfs?style=social&color=white)](https://github.com/gluster/glusterfs/stargazers) — **5,255 ⭐**  
+10. **[GlusterFS](https://github.com/gluster/glusterfs)** [![GitHub_Stars](https://img.shields.io/github/stars/gluster/glusterfs?style=social&color=white)](https://github.com/gluster/glusterfs/stargazers) — **5,255 ⭐**  
     Scalable network-attached storage file system with no-metadata server architecture. **Best for scale-out NAS & block storage**.
 
-11. **[MooseFS](https://github.com/moosefs/moosefs)** [![GitHub stars](https://img.shields.io/github/stars/moosefs/moosefs?style=social&color=white)](https://github.com/moosefs/moosefs/stargazers) — **2,006 ⭐**  
+11. **[MooseFS](https://github.com/moosefs/moosefs)** [![GitHub_Stars](https://img.shields.io/github/stars/moosefs/moosefs?style=social&color=white)](https://github.com/moosefs/moosefs/stargazers) — **2,006 ⭐**  
     Open-source distributed NAS supporting up to 16 exabytes and 2 billion files per cluster with POSIX compliance. **Best for media production and HPC workloads**.
 
-12. **[NetApp Trident](https://github.com/NetApp/trident)** [![GitHub stars](https://img.shields.io/github/stars/NetApp/trident?style=social&color=white)](https://github.com/NetApp/trident/stargazers) — **879 ⭐**  
+12. **[NetApp Trident](https://github.com/NetApp/trident)** [![GitHub_Stars](https://img.shields.io/github/stars/NetApp/trident?style=social&color=white)](https://github.com/NetApp/trident/stargazers) — **879 ⭐**  
     Open-source storage orchestrator for Kubernetes, supporting ONTAP NFS/iSCSI and hybrid storage backends. **Best for enterprise Kubernetes persistent storage**.
 
-13. **[TrueNAS / FreeNAS](https://github.com/truenas/webui)** [![GitHub stars](https://img.shields.io/github/stars/truenas/webui?style=social&color=white)](https://github.com/truenas/webui/stargazers) — **540 ⭐**  
+13. **[TrueNAS / FreeNAS](https://github.com/truenas/webui)** [![GitHub_Stars](https://img.shields.io/github/stars/truenas/webui?style=social&color=white)](https://github.com/truenas/webui/stargazers) — **540 ⭐**  
     Open-source storage OS with ZFS, SMB/NFS/iSCSI support, and container integration for self-hosted hybrid NAS deployments. **Best for self-hosted NAS with ZFS**.
 
-14. **[NooBaa](https://github.com/noobaa/noobaa-core)** [![GitHub stars](https://img.shields.io/github/stars/noobaa/noobaa-core?style=social&color=white)](https://github.com/noobaa/noobaa-core/stargazers) — **364 ⭐**  
+14. **[NooBaa](https://github.com/noobaa/noobaa-core)** [![GitHub_Stars](https://img.shields.io/github/stars/noobaa/noobaa-core?style=social&color=white)](https://github.com/noobaa/noobaa-core/stargazers) — **364 ⭐**  
     High-performance S3 application gateway connecting file systems, object storage, and multi-clouds with caching and replication. **Best for hybrid & multi-cloud object storage gateways**.
 
-15. **[Vaultaire](https://github.com/fairforge/vaultaire)** [![GitHub stars](https://img.shields.io/github/stars/fairforge/vaultaire?style=social&color=white)](https://github.com/fairforge/vaultaire/stargazers) — **3 ⭐**  
+15. **[Vaultaire](https://github.com/fairforge/vaultaire)** [![GitHub_Stars](https://img.shields.io/github/stars/fairforge/vaultaire?style=social&color=white)](https://github.com/fairforge/vaultaire/stargazers) — **3 ⭐**  
     Universal storage orchestration engine providing unified S3 API across multiple backends with intelligent tiering and audit trails. **Best for multi-cloud storage orchestration**.
 
-16. **[gfeh](https://github.com/town-os/gfeh)** [![GitHub stars](https://img.shields.io/github/stars/town-os/gfeh?style=social&color=white)](https://github.com/town-os/gfeh/stargazers) — **0 ⭐**  
+16. **[gfeh](https://github.com/town-os/gfeh)** [![GitHub_Stars](https://img.shields.io/github/stars/town-os/gfeh?style=social&color=white)](https://github.com/town-os/gfeh/stargazers) — **0 ⭐**  
     Multi-protocol VFS layer for object storage featuring read-through caching and two-way mirroring. **Best for unified object storage access**.
 
 ---
